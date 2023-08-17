@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: rgb(24, 35, 61);
+    color: rgb(252, 251, 251);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 30%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.book-imagem {
+    width: 25%;
+}
+
+.books {
+    background-image: linear-gradient(rgb(24, 35, 61),#43baca);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.books-div-conteudo {
+    width: 35%;
+}
+
+.books-titulo {
+    padding: 24px 0;
+}
+
+.livro-imagem{
+    width: 120px;
+}
+
+.livro-icone {
+    width: 24px;
+}
+
+.livro-div {
+    text-align: center;
+}
+
+.livro-titulo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.livro-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 18%;
+} 
+
+.rodape {
+    background-color: rgb(24, 35, 61);
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20%;
+    
+}
+
+.livro-insta {
+    text-align: center;
+    width: 34px;
+    padding: 0px 59;
+    
+    
+}
+.sites-todos {
+    text-align: center;
+}
+
+
+
